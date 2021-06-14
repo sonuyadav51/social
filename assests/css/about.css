@@ -1,0 +1,194 @@
+/* top profile styles start here */
+header{
+ background-color: var(--white);
+}
+.background-img-container,
+.profile-pic-container,
+.profile-name-container,
+.short-discription{
+   width: 100%;
+}
+/* background image */
+.background-img-box{
+  width: 100%;
+  background-size: cover;
+}
+.background-img-box img{
+    width: 100%;
+    height: 20vh;
+}
+/* profile pic container */
+.profile-pic-container{
+    display: flex;
+}
+.profile-pic-box{
+display: flex;
+width: 100%;
+padding: 0px 20px;
+align-items: center;
+justify-content: center;
+
+}
+.profile-pic-box img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    border: 3px solid var(--white);
+}
+/* edit button on next to profile pic */
+.edit-btn-container{
+position: absolute;
+right:5%;
+top: 22%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.profile-edit-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    color: var(--mainColor);
+    font-size: 1.2rem;
+    border: 1px solid var(--grey);
+    border-radius: 50%;
+    background-color: var(--grey);
+}
+.profile-edit-btn:hover{
+  color: var(--white);
+  background-color: var(--mainColor);
+  border: 1px solid var(--mainColor);
+}
+/* name */
+.name-box{
+width: 100%;
+display: flex;
+justify-content: center;
+padding: 10px;
+font-size: 1.2rem;
+text-transform: capitalize;
+font-weight: 600;
+}
+/* short discription */
+.short-discription{
+    width: 100%;
+    text-align: center;
+    padding: 0px 20px;
+}
+.bio{
+font-size: .8rem;
+color: #ddd;
+cursor: pointer;
+}
+/* top profile styles end here */
+
+/*top profile edit  styles start here */
+.edit-background-img{
+   box-shadow: 0px 2px 2px rgba(0,0,0,.2);
+   border-top: 2px solid var(--mainColor);
+   border-radius: 7px;
+}
+
+.edit-background-pen-box{
+  display: flex;
+justify-content:space-between;
+align-items: center;
+}
+
+.edit-short-discription-input{
+ width: 100%;
+ border: 2px solid var(--grey);
+ border-radius: 7px;
+}
+
+
+.edit-short-discription-box .letter-count{
+ font-size: .7rem;
+ color: var(--mainColor);
+ position: relative;
+ float: right;
+
+
+}
+.edit-short-discription-box .red{
+  color:red;
+
+}
+.profile-save-btn-container{
+   border-top: 0;
+}
+.file-btn{
+ width: 0;
+ height: 0;
+ position: relative;
+ opacity: 0;
+}
+.file-btn-label{
+cursor: pointer;
+}
+/*top profile edit styles end here */
+/*for large devices*/
+@media screen and (min-width: 768px) {
+  .profile-wrapper{
+      width: 80%;
+      margin: auto;
+      box-shadow: 0px 10px 20px rgba(0,0,0,.2);
+  }
+  /* edit button on next to profile pic */
+  .edit-btn-container{
+    right: 18%;
+ }
+ /* name */
+  .name-box{
+      font-size: 1.6rem;
+  }
+  .short-discription-text{
+      font-size: 1.4rem;
+  }
+
+  .edit-short-discription-box .letter-count{
+    font-size: .9rem;
+    color: var(--mainColor);
+    position: relative;
+    float: right;
+}
+
+}
+
+/* for extra large devices */
+@media screen and (min-width: 992px) {
+    .profile-wrapper{
+        width: 65%;
+        margin: auto;
+        box-shadow: 0px 10px 20px rgba(0,0,0,.2);
+    }
+    /* top profile styles start here*/
+    .edit-btn-container{
+       right: 22%;
+    }
+
+    .name-box{
+        font-size: 1.2rem;
+    }
+    .short-discription{
+        width: 100%;
+        text-align: center;
+        padding: 0px 150px;
+    }
+    .short-discription-text{
+        font-size: 1rem;
+    }
+
+   .edit-short-discription-box .letter-count{
+    font-size: 1rem;
+    color: var(--mainColor);
+    position: relative;
+   float: right;
+
+}
+/* top profile styles end here*/
+}
