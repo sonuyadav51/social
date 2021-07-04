@@ -16,19 +16,133 @@
   </head>
 
   <body>
+    <!-- ADD BUTTON START -->
+    <div class="add-btn-container">
+      <span class="add-icon" id="add-btn"><i class="fas fa-plus"></i></span>
+    </div>
+    <!-- ADD BUTTON END -->
+    <!-- ADD MENU CONTAINER START HERE -->
+    <div class="menu-container" id="add-menu-container">
+      <div class="menu" id="add-menu-box">
+        <div class="menu-header">
+          <div></div>
+          <div class="line"></div>
+          <a href="#" class="edit-btn menu-close-btn" id="close-menu-btn"
+            ><i class="fas fa-times"></i
+          ></a>
+        </div>
+        <div class="menu-body">
+          <!-- ITEM  -->
+          <div>
+            <div class="menu-item">
+              <div class="menu-title">
+                <h4 class="my-h3">summary</h4>
+              </div>
+            </div>
+            <div class="menu-add-btn">
+              <div class="menu-btn">
+                <a href="#" id="summary-add-btn" class="small-edit-btn"
+                  ><i class="fas fa-plus"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!-- ITEM  -->
+          <div>
+            <div class="menu-item">
+              <div class="menu-title">
+                <h4 class="my-h3">work</h4>
+              </div>
+            </div>
+            <div class="menu-add-btn">
+              <div class="menu-btn">
+                <a href="#" id="work-add-btn" class="small-edit-btn"
+                  ><i class="fas fa-plus"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!-- ITEM  -->
+          <div>
+            <div class="menu-item">
+              <div class="menu-title">
+                <h4 class="my-h3">education</h4>
+              </div>
+            </div>
+            <div class="menu-add-btn">
+              <div class="menu-btn">
+                <a href="#" id="education-add-btn" class="small-edit-btn"
+                  ><i class="fas fa-plus"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!-- ITEM  -->
+          <div>
+            <div class="menu-item">
+              <div class="menu-title">
+                <h4 class="my-h3">skill</h4>
+              </div>
+            </div>
+            <div class="menu-add-btn">
+              <div class="menu-btn">
+                <a href="#" id="skill-add-btn" class="small-edit-btn"
+                  ><i class="fas fa-plus"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!-- ITEM  -->
+          <div>
+            <div class="menu-item">
+              <div class="menu-title">
+                <h4 class="my-h3">project</h4>
+              </div>
+            </div>
+            <div class="menu-add-btn">
+              <div class="menu-btn">
+                <a href="#" id="project-add-btn" class="small-edit-btn"
+                  ><i class="fas fa-plus"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!-- ITEM  -->
+          <div>
+            <div class="menu-item">
+              <div class="menu-title">
+                <h4 class="my-h3">contact</h4>
+              </div>
+            </div>
+            <div class="menu-add-btn">
+              <div class="menu-btn">
+                <a href="#" id="contact-add-btn" class="small-edit-btn"
+                  ><i class="fas fa-plus"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-footer"></div>
+      </div>
+    </div>
+    <!-- ADD MENU CONTAINER END HERE -->
+
+    <!-- HEADER START HERE -->
     <header>
+      <!-- PROFILE TOP EDITING START HERE LIKE BACKGROUND IMG PROFILE PIC SHORT DISCRIPTION -->
       <div class="edit-container" id="profile-edit-container">
-        <div class="edit-box p-3" id="profile-edit-box">
-          <div class="edit-box-header">
+        <div class="edit-box" id="profile-edit-box">
+          <div class="edit-box-header p-2">
             <h3 class="my-h2">edit basic details</h3>
             <a
               href="#"
-              class="edit-btn profile-edit-close-btn"
+              class="edit-btn edit-close-btn"
               id="profile-edit-close-btn"
               ><i class="fas fa-times"></i
             ></a>
           </div>
-          <div class="edit-box-body">
+          <div class="edit-box-body p-3">
             <div class="edit-background-img edit-img-box">
               <div class="background-img-box">
                 <img
@@ -137,7 +251,8 @@
           </div>
         </div>
       </div>
-
+      <!-- PROFILE TOP EDITING END HERE LIKE BACKGROUND IMG PROFILE PIC SHORT DISCRIPTION -->
+      <!-- TOP PROFILE START HERE -->
       <div class="profile-wrapper">
         <div class="background-img-container">
           <div class="background-img-box">
@@ -176,9 +291,712 @@
             <span class="bio">double click to add bio...</span>
           </p>
         </div>
+        <!-- PROFILE NAVBAR START HERE -->
+        <div class="profile-nav-container">
+          <ul class="profile-nav-ul d-flex justify-content-between px-2">
+            <li><a href="#" class="profile-nav-link active">about</a></li>
+            <li><a href="#" class="profile-nav-link">activity</a></li>
+            <li><a href="#" class="profile-nav-link">friend</a></li>
+            <li><a href="#" class="profile-nav-link">message</a></li>
+            <li class="last"><a href="#" class="profile-nav-link">more</a></li>
+          </ul>
+        </div>
       </div>
+      <!-- TOP PROFILE END HERE -->
     </header>
+    <!-- HEADER END HERE -->
+    <!-- BODY START HERE -->
+    <!-- SUMMARY START HERE -->
+    <!-- SUMMARY EDITING START HERE -->
+    <div class="edit-container" id="summary-edit-container">
+      <div class="edit-box" id="summary-edit-box">
+        <div class="edit-box-header p-2">
+          <h3 class="my-h2">edit summary</h3>
+          <a
+            href="#mysummary"
+            class="edit-btn edit-close-btn"
+            id="summary-edit-close-btn"
+            ><i class="fas fa-times"></i
+          ></a>
+        </div>
+        <div class="edit-box-body p-2">
+          <div class="summary-edit-box">
+            <textarea
+              name=""
+              id="summary-value"
+              cols="30"
+              rows="10"
+              placeholder="update your summary"
+              spellcheck="false"
+            ></textarea>
+          </div>
+          <div
+            class="summary-save-btn-container d-flex justify-content-between"
+          >
+            <a href="#" class="edit-btn summary-save-btn" id="summary-save-btn"
+              ><i class="fas fa-check"></i
+            ></a>
+            <span class="Summarycounter pr-2" id="summaryCounter"></span>
+          </div>
+        </div>
 
+        <div class="edit-box-footer mt-3"></div>
+      </div>
+    </div>
+
+    <!-- SUMMARY EDITING END HERE -->
+    <!-- SUMMARY ON PROFILE START HERE -->
+    <div class="container-box" id="mysummary">
+      <div class="container-box-header">
+        <h4 class="my-h3">summary</h4>
+        <a href="#" class="small-edit-btn" id="edit-summary-btn"
+          ><i class="fas fa-pen"></i
+        ></a>
+      </div>
+      <div class="container-box-body">
+        <div class="summary">
+          <p class="summary-text p-4" id="summary-text"></p>
+        </div>
+      </div>
+    </div>
+    <!-- SUMMARY ON PROFILE END HERE -->
+    <!-- SUMAMRY END HERE -->
+
+    <!-- WORK START HERE -->
+    <!-- WORK EDITING START HERE -->
+    <div class="edit-container" id="work-edit-container">
+      <div class="edit-box" id="work-edit-box">
+        <div class="edit-box-header p-2">
+          <h3 class="my-h2">edit work</h3>
+          <a
+            href="#mywork"
+            class="edit-btn edit-close-btn"
+            id="work-edit-close-btn"
+            ><i class="fas fa-times"></i
+          ></a>
+        </div>
+        <div class="edit-box-body p-2">
+          <div class="edit-box-work-list">
+            <!-- WORK ONE -->
+            <div class="content">
+              <div class="content-img-box">
+                <img src="./img/job.png" alt="job image" />
+              </div>
+              <div class="content-detail-box">
+                <h5 class="content-title-name text-capitalize">in microsoft</h5>
+                <p class="content-about">
+                  <span class="content-discription-1"
+                    >senior full stack web developer</span
+                  >
+                  | <span class="content-discription-2">work from home</span> |
+                  <span class="content-duration text-capitalize"
+                    ><span class="content-start">jun 2017</span> -
+                    <span class="content-end">aug 2019</span></span
+                  ><br />
+                  <span class="content-more-discription">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Laboriosam, minus? Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Ad, tempore.</span
+                  >
+                </p>
+                <div
+                  class="edit-content-btns-box d-flex justify-content-end pb-2"
+                >
+                  <a href="#" class="small-edit-btn update-work-btn"
+                    ><i class="fas fa-pen"></i
+                  ></a>
+                  <a href="#" class="ml-3 delete-btn delete-work-btn"
+                    ><i class="fas fa-trash"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="edit-box-footer mt-2">
+          <div class="add-new-content-box">
+            <a href="#" class="edit-btn" id="add-new-work-btn"
+              ><i class="fas fa-plus"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <!-- WORK EDIT FORM START HERE -->
+      <div
+        class="edit-container form-edit-container"
+        id="work-edit-form-container"
+      >
+        <div class="edit-box" id="work-edit-form-box">
+          <div class="edit-box-header p-2">
+            <h3 class="my-h2">edit work form</h3>
+            <a
+              href="#"
+              class="edit-btn edit-close-btn"
+              id="work-edit-form-close-btn"
+              ><i class="fas fa-times"></i
+            ></a>
+          </div>
+          <div class="edit-box-body p-2">
+            <div class="my-work-form-container">
+              <div class="my-input-container">
+                <div class="label-input">
+                  <label for="company-name-input">Company Name</label>
+                  <input
+                    type="text"
+                    class="my-input company-name-input"
+                    placeholder="Company Name"
+                    id="company-name-input"
+                    required
+                  />
+                  <span class="error-message">one</span>
+                </div>
+              </div>
+              <div class="my-input-container">
+                <div class="label-input">
+                  <label for="designation-name-input">Designation</label>
+                  <input
+                    type="text"
+                    class="my-input designation-name-input"
+                    placeholder="Designation"
+                    required
+                    id="designation-name-input"
+                  />
+                  <span class="error-message">two</span>
+                </div>
+              </div>
+              <div class="my-input-container">
+                <div class="label-input">
+                  <label for="work-type-input">Work Type</label>
+                  <input
+                    type="text"
+                    class="my-input work-type-input"
+                    placeholder="Work Type"
+                    required
+                    id="work-type-input"
+                  />
+                  <span class="error-message">three</span>
+                </div>
+              </div>
+              <div class="my-input-container">
+                <div class="d-flex justify-content-center job-duration">
+                  <div class="start-input-box">
+                    <div class="label-input">
+                      <label for="work-start-input">Start date</label>
+                      <input
+                        type="text"
+                        class="my-input work-start-input"
+                        placeholder="Start Date"
+                        required
+                        id="work-start-input"
+                      />
+                      <span class="error-message">four</span>
+                    </div>
+                  </div>
+                  <div class="end-input-box">
+                    <div class="label-input">
+                      <label for="work-end-input">End date</label>
+                      <input
+                        type="text"
+                        class="my-input work-end-input"
+                        placeholder="End Date"
+                        id="work-end-input"
+                      />
+                      <span class="error-message">flive</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="my-input-container">
+                <div class="label-input">
+                  <label for="work-discription-input">Discription</label>
+                  <textarea
+                    name=""
+                    id="work-discription-input"
+                    cols="30"
+                    rows="10"
+                    class="work-discription-input"
+                  ></textarea>
+                  <span class="error-message">six</span>
+                  <span
+                    class="discription-counter"
+                    id="work-discription-counter"
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="edit-box-footer mt-3">
+            <a href="#" class="work-save-btn edit-btn" id="work-form-save-btn"
+              ><i class="fas fa-check"></i
+            ></a>
+            <a
+              href="#"
+              class="work-update-btn edit-btn"
+              id="work-form-update-btn"
+              ><i class="fas fa-check"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <!-- WORK EDIT FORM END HERE -->
+    </div>
+    <!-- WORK EDITING END HERE -->
+    <!-- WORK ON PROFILE START HERE -->
+    <div class="container-box mt-2" id="mywork">
+      <div class="container-box-header">
+        <h4 class="my-h3">work experience</h4>
+        <a href="#" class="small-edit-btn" id="edit-work-btn"
+          ><i class="fas fa-pen"></i
+        ></a>
+      </div>
+      <div class="container-box-body">
+        <div class="work-body p-2" id="work-body">
+          <div class="profile-work-list">
+            <!-- WORK ONE -->
+            <div class="content">
+              <div class="content-img-box">
+                <img src="./img/job.png" alt="" />
+              </div>
+              <div class="content-detail-box">
+                <h5 class="content-title-name text-capitalize">
+                  google in microsoft
+                </h5>
+                <p class="content-about">
+                  <span class="content-discription-1"
+                    >senior full stack web developer</span
+                  >
+                  | <span class="content-discription-2">work from home</span> |
+                  <span class="content-duration"
+                    ><span class="content-start">2017</span> -
+                    <span class="content-end">2019</span></span
+                  ><br />
+                  <span class="content-more-discription">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Laboriosam, minus? Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Ad, tempore.</span
+                  >
+                </p>
+              </div>
+            </div>
+            <!-- WORK 2 -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- WORK ON PROFILE END HERE -->
+    <!-- WORK END HERE -->
+
+    <!-- EDUCATION START HERE -->
+    <!-- EDUCATION EDITING START HERE -->
+    <div class="edit-container" id="education-edit-container">
+      <div class="edit-box" id="education-edit-box">
+        <div class="edit-box-header p-2">
+          <h3 class="my-h2">edit education</h3>
+          <a
+            href="#myeducation"
+            class="edit-btn edit-close-btn"
+            id="education-edit-close-btn"
+            ><i class="fas fa-times"></i
+          ></a>
+        </div>
+        <div class="edit-box-body p-2">
+          <div class="edit-box-education-list">
+            <!-- EDUCATION ONE -->
+            <div class="content">
+              <div class="content-img-box">
+                <img src="./img/edu.png" alt="college image" />
+              </div>
+              <div class="content-detail-box">
+                <h5 class="content-title-name text-capitalize">
+                  kamla nehru institute of technology, sultanpur
+                </h5>
+                <p class="content-about">
+                  <span class="content-discription-1"
+                    >bachalor of technology</span
+                  >
+                  |
+                  <span class="content-discription-2"
+                    >information technology</span
+                  >
+                  |
+                  <span class="content-duration text-capitalize"
+                    ><span class="content-start">jun 2017</span> -
+                    <span class="content-end">jul 2021</span></span
+                  ><br />
+                  <span class="content-more-discription">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Laboriosam, minus? Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Ad, tempore.</span
+                  >
+                </p>
+                <div
+                  class="edit-content-btns-box d-flex justify-content-end pb-2"
+                >
+                  <a href="#" class="small-edit-btn update-education-btn"
+                    ><i class="fas fa-pen"></i
+                  ></a>
+                  <a href="#" class="ml-3 delete-btn delete-education-btn"
+                    ><i class="fas fa-trash"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- EDUCATION ONE -->
+            <div class="content">
+              <div class="content-img-box">
+                <img src="./img/edu.png" alt="college image" />
+              </div>
+              <div class="content-detail-box">
+                <h5 class="content-title-name text-capitalize">HBTU, kanpur</h5>
+                <p class="content-about">
+                  <span class="content-discription-1"
+                    >bachalor of technology</span
+                  >
+                  |
+                  <span class="content-discription-2">computer science</span>
+                  |
+                  <span class="content-duration text-capitalize"
+                    ><span class="content-start">jun 2019</span> -
+                    <span class="content-end">jul 2023</span></span
+                  ><br />
+                  <span class="content-more-discription">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Laboriosam, minus? Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Ad, tempore.</span
+                  >
+                </p>
+                <div
+                  class="edit-content-btns-box d-flex justify-content-end pb-2"
+                >
+                  <a href="#" class="small-edit-btn update-education-btn"
+                    ><i class="fas fa-pen"></i
+                  ></a>
+                  <a href="#" class="ml-3 delete-btn delete-education-btn"
+                    ><i class="fas fa-trash"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="edit-box-footer mt-1">
+          <div class="add-new-content-box">
+            <a href="#" class="edit-btn" id="add-new-education-btn"
+              ><i class="fas fa-plus"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <!-- EDUCATION EDIT FORM START HERE -->
+      <div
+        class="edit-container form-edit-container"
+        id="education-edit-form-container"
+      >
+        <div class="edit-box" id="education-edit-form-box">
+          <div class="edit-box-header p-2">
+            <h3 class="my-h2">edit education form</h3>
+            <a
+              href="#"
+              class="edit-btn edit-close-btn"
+              id="education-edit-form-close-btn"
+              ><i class="fas fa-times"></i
+            ></a>
+          </div>
+          <div class="edit-box-body p-2">
+            <div class="my-education-form-container">
+              <div class="my-input-container">
+                <div class="label-input">
+                  <label for="college-name-input">College Name</label>
+                  <input
+                    type="text"
+                    class="my-input college-name-input"
+                    placeholder="College Name"
+                    id="college-name-input"
+                    required
+                  />
+                  <span class="error-message">one</span>
+                </div>
+              </div>
+              <div class="my-input-container">
+                <div class="label-input">
+                  <label for="course-name-input">Course Name</label>
+                  <input
+                    type="text"
+                    class="my-input course-name-input"
+                    placeholder="course name"
+                    required
+                    id="course-name-input"
+                  />
+                  <span class="error-message">two</span>
+                </div>
+              </div>
+              <div class="my-input-container">
+                <div class="label-input">
+                  <label for="branch-name-input">branch Name</label>
+                  <input
+                    type="text"
+                    class="my-input branch-name-input"
+                    placeholder="branch Name"
+                    required
+                    id="branch-name-input"
+                  />
+                  <span class="error-message">three</span>
+                </div>
+              </div>
+              <div class="my-input-container">
+                <div class="d-flex justify-content-center college-duration">
+                  <div class="start-input-box">
+                    <div class="label-input">
+                      <label for="education-start-input">Start date</label>
+                      <input
+                        type="text"
+                        class="my-input education-start-input"
+                        placeholder="Start Date"
+                        required
+                        id="education-start-input"
+                      />
+                      <span class="error-message">four</span>
+                    </div>
+                  </div>
+                  <div class="end-input-box">
+                    <div class="label-input">
+                      <label for="education-end-input">End date</label>
+                      <input
+                        type="text"
+                        class="my-input education-end-input"
+                        placeholder="End Date"
+                        id="education-end-input"
+                      />
+                      <span class="error-message">flive</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="my-input-container">
+                <div class="label-input">
+                  <label for="education-discription-input">Discription</label>
+                  <textarea
+                    name=""
+                    id="education-discription-input"
+                    cols="30"
+                    rows="10"
+                    class="education-discription-input"
+                  ></textarea>
+                  <span class="error-message">six</span>
+                  <span
+                    class="discription-counter"
+                    id="education-discription-counter"
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="edit-box-footer mt-3">
+            <a
+              href="#"
+              class="education-save-btn edit-btn"
+              id="education-form-save-btn"
+              ><i class="fas fa-check"></i
+            ></a>
+            <a
+              href="#"
+              class="education-update-btn edit-btn"
+              id="education-form-update-btn"
+              ><i class="fas fa-check"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <!-- EDUCATION EDIT FORM END HERE -->
+    </div>
+    <!-- EDUCATION EDITING END HERE -->
+    <!-- EDUCATION ON PROFILE START HERE -->
+    <div class="container-box mt-2" id="myeducation">
+      <div class="container-box-header">
+        <h4 class="my-h3">education</h4>
+        <a href="#" class="small-edit-btn" id="edit-education-btn"
+          ><i class="fas fa-pen"></i
+        ></a>
+      </div>
+      <div class="container-box-body">
+        <div class="education p-2" id="education-body">
+          <div class="profile-education-list">
+            <!-- EDUCATION ONE -->
+            <div class="content">
+              <div class="content-img-box">
+                <img src="./img/edu.png" alt="college img" />
+              </div>
+              <div class="content-detail-box">
+                <h5 class="content-title-name text-capitalize">
+                  kamla nehru institute of technology,sultanpur
+                </h5>
+                <p class="content-about">
+                  <span class="content-discription-1"
+                    >bachalor of technology</span
+                  >
+                  |
+                  <span class="content-discription-2"
+                    >information technology</span
+                  >
+                  |
+                  <span class="content-duration"
+                    ><span class="content-start"> jun 2017</span> -
+                    <span class="content-end">july 2021</span></span
+                  ><br />
+                  <span class="content-more-discription">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Laboriosam, minus? Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Ad, tempore.</span
+                  >
+                </p>
+              </div>
+            </div>
+            <!-- EDUCATION 2 -->
+            <!-- EDUCATION 2 -->
+            <div class="content">
+              <div class="content-img-box">
+                <img src="./img/edu.png" alt="college img" />
+              </div>
+              <div class="content-detail-box">
+                <h5 class="content-title-name text-capitalize">
+                  kamla nehru institute of technology,sultanpur
+                </h5>
+                <p class="content-about">
+                  <span class="content-discription-1"
+                    >bachalor of technology</span
+                  >
+                  |
+                  <span class="content-discription-2"
+                    >information technology</span
+                  >
+                  |
+                  <span class="content-duration"
+                    ><span class="content-start"> jun 2017</span> -
+                    <span class="content-end">july 2021</span></span
+                  ><br />
+                  <span class="content-more-discription">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Laboriosam, minus? Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Ad, tempore.</span
+                  >
+                </p>
+              </div>
+            </div>
+            <!-- EDUCATION 3 -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- EDUCATION ON PROFILE END HERE -->
+    <!-- EDUCATION END HERE -->
+
+    <!-- SKILL START HERE -->
+    <!-- SKILL EDITING START HERE -->
+    <div class="edit-container" id="skill-edit-container">
+      <div class="edit-box" id="skill-edit-box">
+        <div class="edit-box-header p-2">
+          <h3 class="my-h2">edit skill</h3>
+          <a
+            href="#myskill"
+            class="edit-btn edit-close-btn"
+            id="skill-edit-close-btn"
+            ><i class="fas fa-times"></i
+          ></a>
+        </div>
+        <div class="edit-box-body p-2">skill</div>
+
+        <div class="edit-box-footer mt-3"></div>
+      </div>
+    </div>
+    <!-- SKILL EDITING END HERE -->
+    <!-- SKILL ON PROFILE START HERE -->
+    <div class="container-box mt-2" id="myskill">
+      <div class="container-box-header">
+        <h4 class="my-h3">skill</h4>
+        <a href="#" class="small-edit-btn" id="edit-skill-btn"
+          ><i class="fas fa-pen"></i
+        ></a>
+      </div>
+      <div class="container-box-body">
+        <div class="skill p-2" id="skill-body"></div>
+      </div>
+    </div>
+    <!-- SKILL ON PROFILE END HERE -->
+    <!-- SKILL END HERE -->
+
+    <!-- PROJECT START HERE -->
+    <!-- PROJECT EDITING START HERE -->
+    <div class="edit-container" id="project-edit-container">
+      <div class="edit-box" id="project-edit-box">
+        <div class="edit-box-header p-2">
+          <h3 class="my-h2">edit project</h3>
+          <a
+            href="#myproject"
+            class="edit-btn edit-close-btn"
+            id="project-edit-close-btn"
+            ><i class="fas fa-times"></i
+          ></a>
+        </div>
+        <div class="edit-box-body p-2">project</div>
+
+        <div class="edit-box-footer mt-3"></div>
+      </div>
+    </div>
+    <!-- PROJECT EDITING END HERE -->
+    <!-- PROJECT ON PROFILE START HERE -->
+    <div class="container-box mt-2" id="myproject">
+      <div class="container-box-header">
+        <h4 class="my-h3">project</h4>
+        <a href="#" class="small-edit-btn" id="edit-project-btn"
+          ><i class="fas fa-pen"></i
+        ></a>
+      </div>
+      <div class="container-box-body">
+        <div class="project p-2" id="project-body"></div>
+      </div>
+    </div>
+    <!-- PROJECT ON PROFILE END HERE -->
+    <!-- PROJECT END HERE -->
+
+    <!-- CONTACT START HERE -->
+    <!-- CONTACT EDITING START HERE -->
+    <div class="edit-container" id="contact-edit-container">
+      <div class="edit-box" id="contact-edit-box">
+        <div class="edit-box-header p-2">
+          <h3 class="my-h2">edit contact</h3>
+          <a
+            href="#mycontact"
+            class="edit-btn edit-close-btn"
+            id="contact-edit-close-btn"
+            ><i class="fas fa-times"></i
+          ></a>
+        </div>
+        <div class="edit-box-body p-2">contact</div>
+
+        <div class="edit-box-footer mt-3"></div>
+      </div>
+    </div>
+    <!-- CONTACT EDITING END HERE -->
+    <!-- CONTACT ON PROFILE START HERE -->
+    <div class="container-box mt-2" id="mycontact">
+      <div class="container-box-header">
+        <h4 class="my-h3">contact</h4>
+        <a href="#" class="small-edit-btn" id="edit-contact-btn"
+          ><i class="fas fa-pen"></i
+        ></a>
+      </div>
+      <div class="container-box-body">
+        <div class="contact p-2" id="contact-body"></div>
+      </div>
+    </div>
+    <!-- CONTACT ON PROFILE END HERE -->
+    <!-- CONTACT END HERE -->
+    <!-- BODY END HERE -->
     <script src="./assests/lib/js/jquery.js"></script>
     <script src="./assests/lib/js/popper.min.js"></script>
     <script src="./assests/lib/js/bootstrap.min.js"></script>

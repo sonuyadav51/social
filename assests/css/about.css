@@ -1,3 +1,31 @@
+/* add button styles */
+.add-btn-container{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--mainColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 3px 3px rgba(0,0,0,.2);
+  position: fixed;
+  z-index: 2000;
+ cursor: pointer;
+ bottom: 10%;
+ right: 10%;
+}
+.add-btn-container:hover{
+  background: var(--white);
+
+}
+.add-btn-container .add-icon{
+  font-size: 1.5rem;
+  color: var(--white);
+
+}
+.add-btn-container:hover .add-icon{
+  color: var(--mainColor);
+}
 /* top profile styles start here */
 header{
  background-color: var(--white);
@@ -5,7 +33,8 @@ header{
 .background-img-container,
 .profile-pic-container,
 .profile-name-container,
-.short-discription{
+.short-discription,
+.profile-nav-container{
    width: 100%;
 }
 /* background image */
@@ -84,6 +113,31 @@ font-size: .8rem;
 color: #ddd;
 cursor: pointer;
 }
+/* profle navbar start here */
+.profile-nav-ul li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-right: 1px solid var(--grey);
+}
+.profile-nav-ul .last{
+  border: 0px;
+}
+
+.profile-nav-ul li a{
+ color: var(--mainColor);
+ text-transform: capitalize;
+ font-size: .8rem;
+display: block;
+text-align: center;
+width: 100%;
+}
+.profile-nav-ul li a:hover{
+  color: var(--mainColor);
+
+}
+
 /* top profile styles end here */
 
 /*top profile edit  styles start here */
@@ -131,12 +185,68 @@ align-items: center;
 cursor: pointer;
 }
 /*top profile edit styles end here */
+/* profile body styles start here */
+/* profile asummary text */
+.container-box{
+  width: 100%;
+  min-height: 5vh;
+  background: var(--white);
+  box-shadow: 0px 2px 4px rgba(0,0,0,.2);
+  border-radius: 7px;
+
+}
+.container-box-header{
+  display: flex;
+  padding:10px 20px;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--grey);
+}
+.container-box-body .summary .summary-text{
+font-size: .9rem;
+}
+.summary-edit-box textarea{
+  width: 100%;
+  padding: 10px;
+  border: 3px solid var(--grey);
+  border-radius: 7px;
+  margin-top: 20px;
+
+
+}
+.summary-edit-box textarea:focus,
+.summary-edit-box textarea:active
+{
+  border: 1px solid var(--mainColor);
+
+}
+.Summarycounter{
+  color: var(--mainColor);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*for large devices*/
 @media screen and (min-width: 768px) {
   .profile-wrapper{
-      width: 80%;
+      width: 100%;
       margin: auto;
-      box-shadow: 0px 10px 20px rgba(0,0,0,.2);
+      box-shadow: 0px 2px 4px rgba(0,0,0,.2);
+      border-radius: 7px;
+
   }
   /* edit button on next to profile pic */
   .edit-btn-container{
@@ -156,19 +266,35 @@ cursor: pointer;
     position: relative;
     float: right;
 }
+/* profile navbar */
+.profile-nav-ul li a{
+  color: var(--mainColor);
+  text-transform: capitalize;
+  font-size: 1.2rem;
+ display: block;
+ text-align: center;
+ width: 100%;
+ }
+/* profile body styles start here */
+.container-box-body .summary .summary-text{
+  font-size: 1.4rem;
+  }
 
 }
 
+
+
 /* for extra large devices */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1026px) {
     .profile-wrapper{
-        width: 65%;
+        width: 55%;
         margin: auto;
-        box-shadow: 0px 10px 20px rgba(0,0,0,.2);
+        box-shadow: 0px 2px 4px rgba(0,0,0,.2);
+        border-radius: 7px;
     }
     /* top profile styles start here*/
     .edit-btn-container{
-       right: 22%;
+       right: 26%;
     }
 
     .name-box{
@@ -191,4 +317,16 @@ cursor: pointer;
 
 }
 /* top profile styles end here*/
+/* profile body styles start here */
+.container-box{
+  width: 55%;
+  margin: auto;
+
+}
+.container-box-body .summary .summary-text{
+  font-size: .9rem;
+
+
+  }
+
 }
