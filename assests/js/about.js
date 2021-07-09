@@ -405,7 +405,7 @@ let contactBox = document.querySelector('#mycontact');
 let contactAddBtn = document.querySelector('#contact-add-btn');
 aboutBodyContent(contactEditBtn,contactEditContainer,contactEditBox,contactCloseBtn,contactBody,contactBox,contactAddBtn);
 // =================================================contact section end here================================================
-
+ 
 
 //close menu funtianlity
 closeMenuBtn.addEventListener('click',()=>{
